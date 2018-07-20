@@ -6,4 +6,6 @@
 5. go get github.com/jinzhu/gorm/dialects/mysql
 6. go get github.com/gorilla/mux
 7. go get github.com/jinzhu/gorm
-8. go run main.go
+8. Make database and crate table for users
+9. go run main.go
+10. oepn browser and test it on localhost:9000/register
