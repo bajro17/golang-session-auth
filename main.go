@@ -52,7 +52,7 @@ func NotFound(w http.ResponseWriter, r *http.Request) {
 
 func index(w http.ResponseWriter, r *http.Request) {
 	
-	fmt.Fprint(w,"test")
+	tpl.ExecuteTemplate(w, "index.html", nil)
 }
 
 func register(w http.ResponseWriter, r *http.Request) {
